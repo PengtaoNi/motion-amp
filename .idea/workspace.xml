@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="198df6d3-e60e-455e-84a5-ee68fab22afe" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1b5FjQIkWFOE73BMwjfI2dwS8Rf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.animate">
+    <configuration name="animate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="final project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\10648\AppData\Local\Programs\Python\Python38-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/animate.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="catmull-rom" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="final project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\10648\AppData\Local\Programs\Python\Python38-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/catmull-rom.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.animate" />
+        <item itemvalue="Python.catmull-rom" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="198df6d3-e60e-455e-84a5-ee68fab22afe" name="Default Changelist" comment="" />
+      <created>1587914182105</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587914182105</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="518" y="67" key="#animate" timestamp="1587914865025">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="518" y="67" key="#animate/0.0.1600.860/330.-1440.2560.1400@0.0.1600.860" timestamp="1587914865025" />
+    <state x="518" y="67" key="#catmull-rom" timestamp="1587914381515">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="518" y="67" key="#catmull-rom/0.0.1600.860/330.-1440.2560.1400@0.0.1600.860" timestamp="1587914381515" />
+    <state width="1579" height="167" key="GridCell.Tab.0.bottom" timestamp="1588175050320">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1579" height="167" key="GridCell.Tab.0.bottom/0.0.1600.860/330.-1440.2560.1400@0.0.1600.860" timestamp="1588175050320" />
+    <state width="1579" height="167" key="GridCell.Tab.0.center" timestamp="1588175050320">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1579" height="167" key="GridCell.Tab.0.center/0.0.1600.860/330.-1440.2560.1400@0.0.1600.860" timestamp="1588175050320" />
+    <state width="1579" height="167" key="GridCell.Tab.0.left" timestamp="1588175050320">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1579" height="167" key="GridCell.Tab.0.left/0.0.1600.860/330.-1440.2560.1400@0.0.1600.860" timestamp="1588175050320" />
+    <state width="1579" height="167" key="GridCell.Tab.0.right" timestamp="1588175050320">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1579" height="167" key="GridCell.Tab.0.right/0.0.1600.860/330.-1440.2560.1400@0.0.1600.860" timestamp="1588175050320" />
+    <state width="1579" height="276" key="GridCell.Tab.1.bottom" timestamp="1588137190974">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1579" height="276" key="GridCell.Tab.1.bottom/0.0.1600.860/330.-1440.2560.1400@0.0.1600.860" timestamp="1588137190974" />
+    <state width="1579" height="276" key="GridCell.Tab.1.center" timestamp="1588137190974">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1579" height="276" key="GridCell.Tab.1.center/0.0.1600.860/330.-1440.2560.1400@0.0.1600.860" timestamp="1588137190974" />
+    <state width="1579" height="276" key="GridCell.Tab.1.left" timestamp="1588137190974">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1579" height="276" key="GridCell.Tab.1.left/0.0.1600.860/330.-1440.2560.1400@0.0.1600.860" timestamp="1588137190974" />
+    <state width="1579" height="276" key="GridCell.Tab.1.right" timestamp="1588137190974">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1579" height="276" key="GridCell.Tab.1.right/0.0.1600.860/330.-1440.2560.1400@0.0.1600.860" timestamp="1588137190974" />
+    <state x="304" y="75" key="SettingsEditor" timestamp="1588001833157">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="304" y="75" key="SettingsEditor/0.0.1600.860/330.-1440.2560.1400@0.0.1600.860" timestamp="1588001833157" />
+    <state x="497" y="259" key="com.intellij.ide.util.TipDialog" timestamp="1587914186622">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="497" y="259" key="com.intellij.ide.util.TipDialog/0.0.1600.860/330.-1440.2560.1400@0.0.1600.860" timestamp="1587914186622" />
+    <state x="464" y="182" width="672" height="678" key="search.everywhere.popup" timestamp="1588135287251">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="464" y="182" width="672" height="678" key="search.everywhere.popup/0.0.1600.860/330.-1440.2560.1400@0.0.1600.860" timestamp="1588135287251" />
+  </component>
+</project>
