@@ -91,6 +91,7 @@ def split(canvas, im, box, rows, cols):
     w, h = im.size
     blocks = []
     for i in range(rows):
+        row = []
         for j in range(cols):
             block_l = l + w * j // cols
             block_t = t + h * i // rows
@@ -108,19 +109,23 @@ def split(canvas, im, box, rows, cols):
             block_im = Image.new('RGBA', (W, H), (255, 255, 255, 0))
             block_im.paste(im.crop((block_l-l, block_t-t, block_r-l, block_b-t)), block_box)
             block = Block(block_im, block_box, block_quad)
-            blocks.append(block)
+            row.append(block)
+        blocks.append(row)
     return blocks
 
 # transform the blocks to their new quads and draw them on canvas
 def merge(canvas, blocks):
-    for block in blocks:
-        w, h = canvas.size
-        im, (l, t, r, b), quad = block.im, block.box, block.quad
-        old_quad = ((l, t), (r, t), (r, b), (l, b))
-        (new_l, new_t, new_r, new_b) = union_boxes([block.get_bb(), block.box])
-        coeffs = find_coeffs(quad, old_quad)
-        new_im = im.transform((w, h), Image.PERSPECTIVE, coeffs, Image.BICUBIC)
-        canvas.paste(new_im, (0, 0, w, h), new_im)
+    for row in blocks:
+        for block in row:
+            w, h = canvas.size
+            im, (l, t, r, b), quad = block.im, block.box, block.quad
+            old_quad = ((l, t), (r, t), (r, b), (l, b))
+
+
+
+            coeffs = find_coeffs(quad, old_quad)
+            new_im = im.transform((w, h), Image.PERSPECTIVE, coeffs, Image.BICUBIC)
+            canvas.paste(new_im, (0, 0, w, h), new_im)
 
 # rotate point around center counterclockwise by theta degrees
 def rotate_point(point, center, theta):
